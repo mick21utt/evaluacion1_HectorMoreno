@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::get('HectorMoreno', function () {
 	return view('HectorMoreno');
 });
+Route::get('IsraelView', function () {
+	return view('IsraelView');
+});
 
